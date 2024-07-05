@@ -1,0 +1,830 @@
+2024-07-04 13:13:12.011 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 13:13:12.013 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 13:13:12.013 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-04 13:13:12.014 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 13:13:12.014 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-04 13:13:12.014 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-04 13:13:12.014 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 13:13:12.014 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-04 13:13:12.014 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-04 13:13:12.015 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:13:12.015 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-04 13:13:12.019 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-04 13:13:12.056 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:13:12.061 +0530 [debug] ([34mcreate.js[0m) [31m'init' called with C:\Users\rahul\Documents\test projects\freshchat_test, undefined, undefined[0m
+2024-07-04 13:13:19.744 +0530 [debug] ([34mcreate.js[0m) [31mInitializing template "your_first_react_app" with product "freshdesk".[0m
+2024-07-04 13:13:19.953 +0530 [info] A new Freshdesk app was successfully created from template "your_first_react_app" with the following files.
+
+2024-07-04 13:14:20.348 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 13:14:20.350 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 13:14:20.350 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-04 13:14:20.350 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 13:14:20.351 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-04 13:14:20.351 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-04 13:14:20.351 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 13:14:20.351 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-04 13:14:20.351 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-04 13:14:20.352 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:14:20.352 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-04 13:14:20.356 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-04 13:14:20.640 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshchat":{"location":{"conversation_user_info":{"url":"template.html","icon":"logo.svg"}}},"engines":{"node":"18.20.3","fdk":"9.0.9"}}}.[0m
+2024-07-04 13:14:20.640 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,omni as features.[0m
+2024-07-04 13:14:20.643 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:14:20.662 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:14:20.961 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.report.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.report.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 13:14:22.322 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:14:23.297 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2024-07-04 13:14:23.298 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2024-07-04 13:14:23.298 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2024-07-04 13:14:23.298 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2024-07-04 13:14:23.299 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2024-07-04 13:14:23.300 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\rahul\Documents\test projects\freshchat_test/config/ exists.[0m
+2024-07-04 13:14:23.300 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2024-07-04 13:14:23.300 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2024-07-04 13:14:23.300 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2024-07-04 13:14:23.300 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2024-07-04 13:14:23.303 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2024-07-04 13:14:23.303 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2024-07-04 13:14:23.304 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2024-07-04 13:14:23.304 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2024-07-04 13:14:23.304 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2024-07-04 13:14:23.304 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2024-07-04 13:14:23.304 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2024-07-04 13:14:23.304 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2024-07-04 13:14:23.305 +0530 [warn] [33m[WARN][0m App was developed in Node.js runtime 10 or below, and is currently being executed in v18.20.3
+2024-07-04 13:14:27.672 +0530 [debug] ([34mversion-check.js[0m) [31mabout to delete coverage folder[0m
+2024-07-04 13:15:20.766 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 13:15:20.767 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 13:15:20.767 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-04 13:15:20.768 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 13:15:20.768 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-04 13:15:20.768 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-04 13:15:20.768 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 13:15:20.768 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-04 13:15:20.768 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-04 13:15:20.768 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:15:20.769 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-04 13:15:20.772 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-04 13:15:21.088 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}}}},"engines":{"node":"18.20.3","fdk":"9.0.9"}}.[0m
+2024-07-04 13:15:21.089 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2024-07-04 13:15:21.092 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:15:21.110 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:15:22.163 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 13:15:23.051 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2024-07-04 13:15:23.052 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2024-07-04 13:15:23.052 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2024-07-04 13:15:23.052 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2024-07-04 13:15:23.054 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2024-07-04 13:15:23.055 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\rahul\Documents\test projects\freshchat_test/config/ exists.[0m
+2024-07-04 13:15:23.055 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2024-07-04 13:15:23.055 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2024-07-04 13:15:23.055 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2024-07-04 13:15:23.055 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2024-07-04 13:15:23.058 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2024-07-04 13:15:23.058 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2024-07-04 13:15:23.059 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2024-07-04 13:15:23.059 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2024-07-04 13:15:23.059 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2024-07-04 13:15:23.060 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2024-07-04 13:15:23.060 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2024-07-04 13:15:23.060 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2024-07-04 13:15:23.065 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2024-07-04 13:15:23.765 +0530 [debug] ([34mcoverage.js[0m) [31mSnoozing coverage.[0m
+2024-07-04 13:15:23.765 +0530 [debug] ([34mfrontend_framework.js[0m) [31mMounting the default Webpack config[0m
+2024-07-04 13:15:34.807 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 13:15:34.807 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2024-07-04 13:15:34.807 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2024-07-04 13:15:35.142 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-04 13:15:35.242 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2024-07-04 13:15:35.244 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2024-07-04 13:15:35.245 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2024-07-04 13:15:35.246 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2024-07-04 13:15:35.247 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2024-07-04 13:15:35.248 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2024-07-04 13:15:35.266 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 13:15:35.267 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2024-07-04 13:15:35.268 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2024-07-04 13:15:42.711 +0530 [debug] ([34miframe.js[0m) [31mReceived local app render request for product freshworks_crm which is not present in the list of products in the app manifest. Falling back to freshchat.[0m
+2024-07-04 13:15:42.712 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 13:15:42.713 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":false,"v2":[]}[0m
+2024-07-04 13:15:42.716 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 13:15:42.717 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 13:15:42.717 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":false,"v2":[{"id":1,"version_id":1,"configs":{},"displayName":"freshchat_test","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2024-07-04 13:15:42.719 +0530 [debug] ([34miframe.js[0m) [31mReceived local app render request for product freshworks_crm which is not present in the list of products in the app manifest. Falling back to freshchat.[0m
+2024-07-04 13:15:42.720 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 13:15:42.721 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":false,"v2":[]}[0m
+2024-07-04 13:15:42.840 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 13:15:42.853 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.977cc435.js[0m
+2024-07-04 13:15:42.854 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.977cc435.js[0m
+2024-07-04 14:10:18.558 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 14:10:18.561 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 14:10:18.561 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-04 14:10:18.562 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 14:10:18.562 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-04 14:10:18.562 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-04 14:10:18.563 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 14:10:18.563 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-04 14:10:18.563 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-04 14:10:18.563 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 14:10:18.564 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-04 14:10:18.570 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-04 14:10:24.355 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}}}},"engines":{"node":"18.20.3","fdk":"9.0.9"}}.[0m
+2024-07-04 14:10:24.357 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2024-07-04 14:10:24.393 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 14:10:24.647 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 14:10:45.292 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 14:10:55.976 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2024-07-04 14:10:55.977 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2024-07-04 14:10:55.977 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2024-07-04 14:10:55.977 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2024-07-04 14:10:55.979 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2024-07-04 14:10:55.979 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\rahul\Documents\test projects\freshchat_test/config/ exists.[0m
+2024-07-04 14:10:55.979 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2024-07-04 14:10:55.979 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2024-07-04 14:10:55.979 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2024-07-04 14:10:55.979 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2024-07-04 14:10:55.991 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2024-07-04 14:10:55.991 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2024-07-04 14:10:55.992 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2024-07-04 14:10:55.992 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2024-07-04 14:10:55.992 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2024-07-04 14:10:55.993 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2024-07-04 14:10:55.993 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2024-07-04 14:10:55.993 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2024-07-04 14:10:56.012 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2024-07-04 14:10:56.892 +0530 [debug] ([34mcoverage.js[0m) [31mSnoozing coverage.[0m
+2024-07-04 14:10:56.893 +0530 [debug] ([34mfrontend_framework.js[0m) [31mMounting the default Webpack config[0m
+2024-07-04 14:11:09.410 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 14:11:09.411 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2024-07-04 14:11:09.412 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2024-07-04 14:11:28.942 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-04 14:11:29.002 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:11:29.052 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:11:29.053 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:11:29.061 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:11:29.068 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:11:29.504 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d4c0753e.js[0m
+2024-07-04 14:11:29.505 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d4c0753e.js[0m
+2024-07-04 14:11:29.774 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2024-07-04 14:11:29.824 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2024-07-04 14:11:29.852 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2024-07-04 14:11:29.881 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2024-07-04 14:11:29.908 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2024-07-04 14:11:29.936 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2024-07-04 14:11:30.005 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 14:11:30.007 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2024-07-04 14:11:30.009 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2024-07-04 14:11:30.011 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2024-07-04 14:11:33.927 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 14:11:33.929 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 14:11:33.929 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-04 14:11:33.961 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-04 14:12:21.248 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-04 14:12:21.268 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:12:21.346 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:12:21.347 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:12:21.349 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:12:21.360 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:12:21.377 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.f0c26397.js[0m
+2024-07-04 14:12:21.377 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.f0c26397.js[0m
+2024-07-04 14:12:29.258 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-04 14:12:29.278 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:12:29.306 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.5e71ca5f.js[0m
+2024-07-04 14:12:29.307 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.5e71ca5f.js[0m
+2024-07-04 14:12:29.313 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.30dc32db.js[0m
+2024-07-04 14:12:29.402 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.30dc32db.js[0m
+2024-07-04 14:12:30.145 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.c40cb7e7.js[0m
+2024-07-04 14:12:30.147 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.c40cb7e7.js[0m
+2024-07-04 14:12:33.873 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\scripts\\runtime.88567fb5.js.map"}" to all listeners.[0m
+2024-07-04 14:12:33.874 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-04 14:12:33.875 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\scripts\\vendors.45fe4bb5.js.map"}" to all listeners.[0m
+2024-07-04 14:12:33.890 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:12:33.912 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:12:33.921 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:12:33.932 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:12:33.933 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:12:33.944 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.7082b0c0.js[0m
+2024-07-04 14:12:33.945 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.7082b0c0.js[0m
+2024-07-04 14:12:36.837 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-04 14:12:36.845 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:12:36.862 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:12:36.863 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:12:36.866 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:12:36.874 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:12:36.883 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:12:36.884 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:42.318 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:42.325 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:42.346 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:42.347 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:42.351 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:42.359 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:42.370 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:42.370 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:44.157 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:44.165 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:44.202 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:44.203 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:44.205 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:44.214 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:44.224 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:44.225 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:46.003 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:46.017 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:46.053 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:46.054 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:46.057 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:46.064 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:46.074 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:46.075 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:47.188 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:47.195 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:47.211 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:47.212 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:47.213 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:47.220 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:47.228 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:47.229 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:49.147 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:49.157 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:49.182 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:49.183 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:49.184 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:49.192 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:49.200 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:49.201 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:52.854 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:52.862 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:52.888 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:52.889 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:52.891 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:52.898 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:52.908 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:52.909 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:55.590 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:55.599 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:55.617 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:55.618 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:55.621 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:55.629 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:55.637 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:55.638 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:13:57.552 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:13:57.558 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:13:57.571 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:57.572 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:13:57.574 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:57.582 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:13:57.590 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:13:57.591 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 14:15:00.159 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-04 14:15:00.166 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-04 14:15:00.198 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:15:00.208 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-04 14:15:00.218 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-04 14:15:00.219 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-04 14:15:00.222 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.a9245abc.js[0m
+2024-07-04 14:15:00.223 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.a9245abc.js[0m
+2024-07-04 15:17:08.213 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 15:17:08.215 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 15:17:08.215 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-04 15:17:08.215 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 15:17:08.216 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-04 15:17:08.216 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-04 15:17:08.216 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 15:17:08.216 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-04 15:17:08.216 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-04 15:17:08.216 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 15:17:08.216 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-04 15:17:08.220 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-04 15:17:09.570 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}}}},"engines":{"node":"18.20.3","fdk":"9.0.9"}}.[0m
+2024-07-04 15:17:09.571 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2024-07-04 15:17:09.572 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 15:17:11.446 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 15:17:23.222 +0530 [debug] ([34mpack.js[0m) [31m'pack' called with {}[0m
+2024-07-04 15:17:49.021 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 15:17:49.023 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 15:17:49.023 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-04 15:17:49.023 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-04 15:17:49.024 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-04 15:17:49.024 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-04 15:17:49.024 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-04 15:17:49.024 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-04 15:17:49.024 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-04 15:17:49.024 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 15:17:49.024 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-04 15:17:49.028 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-04 15:17:49.219 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}}}},"engines":{"node":"18.20.3","fdk":"9.0.9"}}.[0m
+2024-07-04 15:17:49.219 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2024-07-04 15:17:49.221 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 15:17:50.643 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-04 15:17:57.734 +0530 [debug] ([34mpack.js[0m) [31m'pack' called with {}[0m
+2024-07-04 15:17:57.735 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2024-07-04 15:17:57.736 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2024-07-04 15:17:57.736 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2024-07-04 15:17:57.737 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2024-07-04 15:17:57.739 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2024-07-04 15:17:57.739 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\rahul\Documents\test projects\freshchat_test/config/ exists.[0m
+2024-07-04 15:17:57.739 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2024-07-04 15:17:57.739 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2024-07-04 15:17:57.740 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2024-07-04 15:17:57.740 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2024-07-04 15:17:57.754 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2024-07-04 15:17:57.755 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2024-07-04 15:17:57.755 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2024-07-04 15:17:57.755 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest-dependency[0m
+2024-07-04 15:17:57.756 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2024-07-04 15:17:57.756 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2024-07-04 15:17:57.756 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2024-07-04 15:17:57.756 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2024-07-04 15:17:57.761 +0530 [info] App being packed in Node v18.20.3 using FDK 9.0.9
+2024-07-04 15:17:57.782 +0530 [debug] ([34mpack.js[0m) [31mCannot find './visitor-app' directory while packing.[0m
+2024-07-04 15:17:57.824 +0530 [debug] ([34mpack.js[0m) [31mCannot find './server' directory while packing.[0m
+2024-07-04 15:17:57.836 +0530 [debug] ([34mfile.js[0m) [31mComputing digest for app\icon.svg,app\index.html,app\scripts\assets\img\iconce7bb47d.svg,app\scripts\assets\img\logo6ce24c58.svg,app\scripts\main.50b03663.js,app\scripts\main.50b03663.js.map,app\scripts\runtime.242044cf.js,app\scripts\runtime.242044cf.js.map,app\scripts\vendors.00c689a4.js,app\scripts\vendors.00c689a4.js.LICENSE.txt,app\scripts\vendors.00c689a4.js.map,manifest.json.[0m
+2024-07-04 15:17:57.844 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\icon.svg[0m
+2024-07-04 15:17:57.845 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\index.html[0m
+2024-07-04 15:17:57.850 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\assets\img\iconce7bb47d.svg[0m
+2024-07-04 15:17:57.850 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\assets\img\logo6ce24c58.svg[0m
+2024-07-04 15:17:57.850 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\main.50b03663.js[0m
+2024-07-04 15:17:57.855 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\main.50b03663.js.map[0m
+2024-07-04 15:17:57.855 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\runtime.242044cf.js[0m
+2024-07-04 15:17:57.857 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\runtime.242044cf.js.map[0m
+2024-07-04 15:17:57.857 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\vendors.00c689a4.js[0m
+2024-07-04 15:17:57.955 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\vendors.00c689a4.js.LICENSE.txt[0m
+2024-07-04 15:17:57.955 +0530 [debug] ([34mpack.js[0m) [31mPacking ./app\scripts\vendors.00c689a4.js.map[0m
+2024-07-04 15:17:57.955 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\App.css[0m
+2024-07-04 15:17:57.955 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\App.js[0m
+2024-07-04 15:17:57.968 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\App.test.js[0m
+2024-07-04 15:17:57.969 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\assets\icon.svg[0m
+2024-07-04 15:17:57.969 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\assets\logo.svg[0m
+2024-07-04 15:17:57.969 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\components\HelloUser.js[0m
+2024-07-04 15:17:57.970 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\hooks\useScript.js[0m
+2024-07-04 15:17:57.971 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\index.css[0m
+2024-07-04 15:17:57.971 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\index.js[0m
+2024-07-04 15:17:57.972 +0530 [debug] ([34mpack.js[0m) [31mPacking ./src\logo.svg[0m
+2024-07-04 15:17:57.972 +0530 [debug] ([34mpack.js[0m) [31mPacking ./config\iparams.json[0m
+2024-07-04 15:17:57.972 +0530 [debug] ([34mpack.js[0m) [31mPacking ./manifest.json[0m
+2024-07-04 15:17:57.972 +0530 [debug] ([34mpack.js[0m) [31mPacking ./.report.json[0m
+2024-07-04 15:17:57.972 +0530 [debug] ([34mpack.js[0m) [31mPacking ./digest.md5[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator actions[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator requests[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator app-dir[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator config-dir[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator custom-objects[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator event[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator iparam[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator oauth[0m
+2024-07-04 15:17:58.041 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator pkgsize[0m
+2024-07-04 15:17:58.042 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2024-07-04 15:17:58.042 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator version-check[0m
+2024-07-04 15:17:58.043 +0530 [info] App packed successfully at \dist\freshchat_test.zip
+2024-07-04 15:17:58.043 +0530 [info] Upload this file to the marketplace by following the instructions at https://developers.freshchat.com/v2/docs/quick-start/
+2024-07-04 15:17:58.043 +0530 [debug] ([34mfile.js[0m) [31mDeleting digest.[0m
+2024-07-05 11:49:24.608 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-05 11:49:24.615 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-05 11:49:24.615 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-05 11:49:24.616 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-05 11:49:24.616 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-05 11:49:24.616 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-05 11:49:24.616 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-05 11:49:24.616 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-05 11:49:24.616 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-05 11:49:24.617 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 11:49:24.617 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-05 11:49:24.622 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-05 11:49:28.788 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}}}},"engines":{"node":"18.20.3","fdk":"9.0.9"}}.[0m
+2024-07-05 11:49:28.789 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2024-07-05 11:49:28.818 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 11:49:29.035 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 11:49:43.300 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 11:49:52.049 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2024-07-05 11:49:52.049 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2024-07-05 11:49:52.049 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2024-07-05 11:49:52.050 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2024-07-05 11:49:52.051 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2024-07-05 11:49:52.051 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\rahul\Documents\test projects\freshchat_test/config/ exists.[0m
+2024-07-05 11:49:52.051 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files assets,iparams.json[0m
+2024-07-05 11:49:52.052 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2024-07-05 11:49:52.052 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2024-07-05 11:49:52.052 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2024-07-05 11:49:52.087 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2024-07-05 11:49:52.087 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2024-07-05 11:49:52.094 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2024-07-05 11:49:52.094 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2024-07-05 11:49:52.094 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2024-07-05 11:49:52.095 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2024-07-05 11:49:52.095 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2024-07-05 11:49:52.095 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2024-07-05 11:49:52.108 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2024-07-05 11:49:52.738 +0530 [debug] ([34mcoverage.js[0m) [31mSnoozing coverage.[0m
+2024-07-05 11:49:52.738 +0530 [debug] ([34mfrontend_framework.js[0m) [31mMounting the default Webpack config[0m
+2024-07-05 11:50:02.955 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:50:02.955 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2024-07-05 11:50:02.955 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2024-07-05 11:50:17.646 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-05 11:50:17.883 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-05 11:50:17.974 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2024-07-05 11:50:17.998 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2024-07-05 11:50:18.011 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2024-07-05 11:50:18.023 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2024-07-05 11:50:18.036 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2024-07-05 11:50:18.050 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2024-07-05 11:50:18.088 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:50:18.089 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2024-07-05 11:50:18.090 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2024-07-05 11:50:18.091 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2024-07-05 11:55:50.209 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:55:50.212 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:55:50.213 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 11:55:50.228 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:57:24.794 +0530 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "request" with action "execute" and body {"action":"execute","data":{"name":"__internal_freshdesk_validation","context":{"host":"23232323.freshdesk.com","path":"/api/v2/settings/helpdesk","apikey":"MjMyMw=="},"isInstall":true,"isOAuth":true},"isInstall":true}[0m
+2024-07-05 11:57:24.795 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:57:24.815 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:57:24.815 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 11:57:24.821 +0530 [debug] ([34mrequest.js[0m) [31mMaking request with options as {"method":"GET","url":"https://23232323.freshdesk.com/api/v2/settings/helpdesk","headers":{"Authorization":"Basic MjMyMw=="},"body":null,"maxAttempts":3,"retryDelay":100,"timeout":5000,"skipHeaderSanitize":true}[0m
+2024-07-05 11:57:25.679 +0530 [debug] ([34mrequest.js[0m) [31mLooking for "application/json" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json[0m
+2024-07-05 12:03:12.471 +0530 [debug] ([34miframe.js[0m) [31mReceived local app render request for product freshworks_crm which is not present in the list of products in the app manifest. Falling back to freshchat.[0m
+2024-07-05 12:03:12.471 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 12:03:12.472 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 12:03:12.472 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 12:03:12.475 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 12:03:12.475 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 12:03:12.476 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 12:03:12.476 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[{"id":1,"version_id":1,"configs":{},"displayName":"freshchat_test","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2024-07-05 12:03:12.478 +0530 [debug] ([34miframe.js[0m) [31mReceived local app render request for product freshworks_crm which is not present in the list of products in the app manifest. Falling back to freshchat.[0m
+2024-07-05 12:03:12.479 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 12:03:12.480 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 12:03:12.480 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 12:03:12.615 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 12:03:12.645 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 12:03:12.646 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 12:03:12.662 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 12:03:12.671 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 12:03:13.244 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 12:03:13.245 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 12:03:17.825 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 12:03:17.836 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 12:03:17.843 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 12:03:17.853 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 12:03:17.853 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 12:03:17.855 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 12:03:17.856 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 14:51:09.398 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:09.400 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:09.400 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 14:51:09.409 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:17.746 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:17.749 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:17.750 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 14:51:17.775 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:17.777 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:17.777 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 14:51:17.788 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:17.789 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 14:51:17.789 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 15:18:52.436 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-05 15:18:52.447 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:18:52.473 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:18:52.475 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:18:52.479 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:18:52.488 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:18:52.498 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:18:52.500 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:19:24.068 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:19:24.075 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:19:24.090 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:19:24.090 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:19:24.091 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:19:24.098 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:19:24.107 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:19:24.108 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:19:29.305 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:19:29.313 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:19:29.327 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:19:29.327 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:19:29.330 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:19:29.342 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:19:29.350 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:19:29.351 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:19:39.518 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-05 15:19:39.520 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-05 15:19:39.520 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-05 15:19:39.520 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-05 15:19:39.520 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-05 15:19:39.521 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-05 15:19:39.521 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-05 15:19:39.521 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-05 15:19:39.521 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-05 15:19:39.521 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 15:19:39.521 +0530 [debug] ([34mupdater.js[0m) [31mlast check more than 24 hours ago, looking for updates again[0m
+2024-07-05 15:19:39.864 +0530 [debug] ([34mupdater.js[0m) [31mdownloaded update manifest as {"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}}[0m
+2024-07-05 15:19:39.864 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 15:19:39.865 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 15:19:39.883 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720075032490}}[0m
+2024-07-05 15:19:47.567 +0530 [debug] ([34mupdater.js[0m) [31muser responded to update prompt with "true"[0m
+2024-07-05 15:29:24.589 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-05 15:29:24.591 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul/.fdk/configs.json: Cannot find module 'C:\Users\rahul/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-05 15:29:24.591 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2024-07-05 15:29:24.591 +0530 [debug] ([34mfile.js[0m) [31mError while requiring C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json: Cannot find module 'C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/configs.json'
+Require stack:
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-07-05 15:29:24.592 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-07-05 15:29:24.592 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":5000}}"[0m
+2024-07-05 15:29:24.592 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":5000}}"[0m
+2024-07-05 15:29:24.592 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v18.20.3 on win32[0m
+2024-07-05 15:29:24.592 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\rahul\Documents\test projects\freshchat_test/.fdk/store.sqlite"[0m
+2024-07-05 15:29:24.593 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720172979866}}[0m
+2024-07-05 15:29:24.593 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2024-07-05 15:29:24.597 +0530 [debug] ([34mindex.js[0m) [31mrunning with opts {}[0m
+2024-07-05 15:29:24.882 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.3","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}}}},"engines":{"node":"18.20.3","fdk":"9.0.9"}}.[0m
+2024-07-05 15:29:24.883 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2024-07-05 15:29:24.885 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720172979866}}[0m
+2024-07-05 15:29:24.901 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720172979866}}[0m
+2024-07-05 15:29:25.937 +0530 [debug] ([34mdata.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.1.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.0.3","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1720172979866}}[0m
+2024-07-05 15:29:26.852 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2024-07-05 15:29:26.853 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2024-07-05 15:29:26.853 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator requests[0m
+2024-07-05 15:29:26.853 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2024-07-05 15:29:26.854 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2024-07-05 15:29:26.855 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\rahul\Documents\test projects\freshchat_test/config/ exists.[0m
+2024-07-05 15:29:26.855 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files assets,iparams.json[0m
+2024-07-05 15:29:26.855 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2024-07-05 15:29:26.855 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2024-07-05 15:29:26.855 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2024-07-05 15:29:26.892 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2024-07-05 15:29:26.892 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2024-07-05 15:29:26.893 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2024-07-05 15:29:26.893 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2024-07-05 15:29:26.893 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2024-07-05 15:29:26.893 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2024-07-05 15:29:26.893 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2024-07-05 15:29:26.893 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2024-07-05 15:29:26.897 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2024-07-05 15:29:27.041 +0530 [debug] ([34mcoverage.js[0m) [31mSnoozing coverage.[0m
+2024-07-05 15:29:27.042 +0530 [debug] ([34mfrontend_framework.js[0m) [31mMounting the default Webpack config[0m
+2024-07-05 15:29:28.492 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:29:28.493 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? undefined[0m
+2024-07-05 15:29:28.493 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2024-07-05 15:29:32.697 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-05 15:29:32.750 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:29:32.779 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:29:32.780 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:29:32.788 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:29:32.793 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:29:33.145 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:29:33.146 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:29:33.371 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2024-07-05 15:29:33.384 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:29:33.422 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:29:33.423 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:29:33.426 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:29:33.436 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:29:33.452 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:29:33.453 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:29:33.577 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2024-07-05 15:29:33.583 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2024-07-05 15:29:33.586 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2024-07-05 15:29:33.588 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2024-07-05 15:29:33.591 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2024-07-05 15:29:33.594 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\rahul\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2024-07-05 15:29:33.633 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:29:33.635 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2024-07-05 15:29:33.636 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2024-07-05 15:29:33.637 +0530 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2024-07-05 15:29:53.780 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:29:53.784 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:29:53.785 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 15:29:53.805 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:30:21.761 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:30:21.770 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:30:21.790 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:21.791 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:21.796 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:21.805 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:21.818 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:30:21.818 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:30:27.677 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:30:27.686 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:30:27.706 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:27.714 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:27.721 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:27.722 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:27.726 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:30:27.727 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:30:29.244 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:30:29.251 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:30:29.267 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:29.267 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:29.269 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:29.277 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:29.285 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:30:29.286 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:30:30.842 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:30:30.850 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:30:30.864 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:30.864 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:30.866 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:30.872 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:30.881 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:30:30.881 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:30:32.355 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:30:32.364 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:30:32.385 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:32.386 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:32.388 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:32.396 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:32.405 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:30:32.406 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:30:34.377 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:30:34.384 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:30:34.398 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:34.399 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:30:34.400 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:34.408 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:30:34.418 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:30:34.418 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:30:41.807 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:30:41.810 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:30:41.811 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 15:30:41.839 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:36:18.609 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:36:18.616 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:36:18.633 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:36:18.634 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:36:18.637 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:36:18.646 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:36:18.656 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:36:18.658 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:36:32.334 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:36:32.342 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:36:32.358 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:36:32.359 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:36:32.362 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:36:32.369 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:36:32.376 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:36:32.377 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:36:50.034 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:36:50.037 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:36:50.037 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 15:36:50.060 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:41:24.088 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 15:41:24.095 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 15:41:24.117 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 15:41:24.119 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 15:41:24.123 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:41:24.132 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 15:41:24.144 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 15:41:24.145 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 15:41:30.227 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:41:30.230 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 15:41:30.231 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 15:41:30.295 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 16:56:41.696 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 16:56:41.713 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 16:56:41.777 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 16:56:41.780 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 16:56:41.784 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 16:56:41.795 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 16:56:41.815 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 16:56:41.817 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 16:56:46.184 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 16:56:46.192 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 16:56:46.192 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 16:56:46.233 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 16:59:40.276 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.js"}" to all listeners.[0m
+2024-07-05 16:59:40.293 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 16:59:40.324 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 16:59:40.326 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 16:59:40.328 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 16:59:40.337 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 16:59:40.350 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 16:59:40.352 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 17:01:22.873 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 17:01:22.876 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 17:01:22.876 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"freshchat_test","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.3","isInstall":true,"v2":[]}[0m
+2024-07-05 17:01:22.935 +0530 [debug] ([34mdata.js[0m) [31mRead {}[0m
+2024-07-05 17:03:54.502 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-05 17:03:54.511 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 17:03:54.530 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 17:03:54.531 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 17:03:54.533 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 17:03:54.541 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 17:03:54.551 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 17:03:54.552 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
+2024-07-05 17:04:18.664 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.json"}" to all listeners.[0m
+2024-07-05 17:04:18.672 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2024-07-05 17:04:18.707 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/runtime.88567fb5.js[0m
+2024-07-05 17:04:18.708 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/runtime.88567fb5.js[0m
+2024-07-05 17:04:18.712 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/vendors.45fe4bb5.js[0m
+2024-07-05 17:04:18.720 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/vendors.45fe4bb5.js[0m
+2024-07-05 17:04:18.736 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/main.d87a7107.js[0m
+2024-07-05 17:04:18.737 +0530 [debug] ([34mcoverage.js[0m) [31mSkipped instrumenting ./app/scripts/main.d87a7107.js[0m
