@@ -7,8 +7,17 @@
           "url": "index.html",
           "icon": "icon.svg"
         }
+      },
+      "functions": {
+        "serverMethod": {
+          "timeout": 20
+        }
       }
     }
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "0.12.7"
   },
   "engines": {
     "node": "18.20.3",

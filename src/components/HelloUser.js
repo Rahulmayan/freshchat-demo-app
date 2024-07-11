@@ -11,12 +11,16 @@ const HelloUser = (props) => {
   })
 
   useEffect(() => {
-    firstnameChange(arg)
+    firstnameChange()
   },[])
 
-  function firstnameChange(arg) {
-    console.log('arg',arg)
-    utils.set(`lastname`, {value: arg});
+  async function firstnameChange() {
+    try{
+      const response = await client.request.invoke("getCrmData", props);
+      console.log("CRM data response:", response);
+    }catch{
+      console.error("Attempt", attempt, "Error fetching CRM data:", error);
+    }
   }
 
   return (
