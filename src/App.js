@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import './App.css';
 import HelloUser from './components/HelloUser'
 
@@ -15,9 +15,22 @@ const App = () => {
     document.head.appendChild(script);
   }, []);
 
+  useEffect(() => { console.log("testing for template data")},[])  
+
   useEffect(() => {
     if (!loaded) return
     app.initialized().then((client) => {
+      console.log("inside intialized")
+      client.events.on("app.activated", appActiveHandler);
+      // client.events.on("app.deactivated", appDeactiveHandler);
+      //Define handler
+      function appActiveHandler() {
+        console.info("App is activated");
+      }
+      // // function appDeactiveHandler() {
+      // //   console.info("App is deactivated");
+      // // }
+      client.instance.resize({ height: "610px" });
       setChild((<HelloUser client={client} />))
     })
   }, [loaded])

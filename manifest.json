@@ -9,15 +9,17 @@
         }
       },
       "functions": {
-        "serverMethod": {
+        "getCrmData": {
+          "timeout": 20
+        },
+        "sendLMSToPopBill": {
           "timeout": 20
         }
       }
     }
   },
   "dependencies": {
-    "fs": "0.0.1-security",
-    "path": "0.12.7"
+    "popbill": "1.60.3"
   },
   "engines": {
     "node": "18.20.3",
