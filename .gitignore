@@ -4,3 +4,7 @@ app
 app\scripts
 .fdk
 coverage
+log
+dist
+
+.fdk/localstore

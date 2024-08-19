@@ -9,7 +9,7 @@
         }
       },
       "functions": {
-        "getCrmData": {
+        "getTemplateData": {
           "timeout": 20
         },
         "sendLMSToPopBill": {

@@ -1,13 +1,23 @@
 {
-    "EmailAddress": {
-        "display_name": "Template",
-        "description": "Please enter your email address",
-        "type": "email",
+    "linkId": {
+        "display_name": "LinkID",
+        "description": "Please enter your LinkID",
+        "type": "text",
         "required": true
     },
-    "mobile": {
-        "display_name": "Phone Number",
-        "description": "Please enter your phone number with the country code",
-        "type": "phone_number"
+    "secretKey": {
+        "display_name": "Secret Key",
+        "description": "Please enter your Secret Key",
+        "type": "text",
+        "secure": true,
+        "required": true,
+        "type_attributes": {
+            "product": "freshchat"
+        }
+    },
+    "businessRegistrationNumber": {
+        "display_name": "Business Registration Number",
+        "description": "Please enter your Business Registration Number",
+        "type": "number"
     }
 }

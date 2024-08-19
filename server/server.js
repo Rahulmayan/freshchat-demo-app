@@ -1,12 +1,13 @@
 const popbill = require('popbill');
 
 exports = {
-  getCrmData: async function () {
-    console.log("Started backend");
+  getTemplateData: async function (props) {
+    console.log("Started backend",props);
+    console.log("props.iparams.LinkID",props.iparams.linkId)
 
     popbill.config({
-      LinkID: 'GENTLEMONSTER',
-      SecretKey: 'XKhzEH2Wl83Xk0YTPDCnhzT7A+fR9pWnEk5APiYTt0A=',
+      LinkID: props.iparams.linkId,
+      SecretKey: props.iparams.secretKey,
       IsTest: false,
       IPRestrictOnOff: true,
       UseStaticIP: false,
@@ -18,7 +19,7 @@ exports = {
 
     function listATSTemplateAsync(businessRegistrationNumber, senderKey, kakaoService) {
       return new Promise((resolve, reject) => {
-        // console.log("kakaoService:", kakaoService);
+        console.log("kakaoService:", kakaoService);
         kakaoService.listATSTemplate(
           businessRegistrationNumber,
           senderKey,
@@ -44,7 +45,7 @@ exports = {
 
     try {
       var kakaoService = popbill.KakaoService();
-      const businessRegistrationNumber = '1198638589'; // Replace with your actual business registration number
+      const businessRegistrationNumber = props.iparams.businessRegistrationNumber; // Replace with your actual business registration number
       const senderKey = 'GENTLEMONSTER';
 
       const allTemplates = await listATSTemplateAsync(businessRegistrationNumber, senderKey, kakaoService);
@@ -57,8 +58,8 @@ exports = {
   sendLMSToPopBill: async function (request) {
     console.log("sendlms to popbill", request)
     popbill.config({
-      LinkID: 'GENTLEMONSTER',
-      SecretKey: 'XKhzEH2Wl83Xk0YTPDCnhzT7A+fR9pWnEk5APiYTt0A=',
+      LinkID: request.iparams.linkId,
+      SecretKey: request.iparams.secretKey,
       IsTest: false,
       IPRestrictOnOff: true,
       UseStaticIP: false,
@@ -80,17 +81,17 @@ exports = {
             console.log(error);
             reject(error)
           })
-        messageService.getMessages(businessRegistrationNumber, "024080121000000002", "GENTLEMONSTER", function (response) {
-          console.log("response GET MESSAGES successfull", response);
-        }, function (error) {
-          console.log(error);
-        })
+        // messageService.getMessages(businessRegistrationNumber, "024080121000000002", "GENTLEMONSTER", function (response) {
+        //   console.log("response GET MESSAGES successfull", response);
+        // }, function (error) {
+        //   console.log(error);
+        // })
       });
     }
 
     try {
       var messageService = popbill.MessageService();
-      const businessRegistrationNumber = '1198638589'; // Replace with your actual business registration number
+      const businessRegistrationNumber = request.iparams.businessRegistrationNumber; // Replace with your actual business registration number
       const Sender = '1644-1246';
       const Receiver = '01041737335';
       const ReceiverName = "TEst"
